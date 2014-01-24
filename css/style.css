@@ -1,5 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+/*Custom Style Sheet for DadaJoe.com
+
+version: 1.0
+last modified: 24.01.2014 by Vasu Naman (put your name in future if you modify)
+author: Dipanjan Bagchi
+email: dipa@vyrazu.com
+website: http://www.vyrazu.com*/
 
 body{
 	background: #F7F5EE;
@@ -1542,6 +1549,7 @@ input[type="radio"], input[type="checkbox"] {
 	margin: 0;
 	margin-top: 4px;
 	float: left;
+	width: 136px;
 }
 
 .pro_th_ul li{
@@ -1728,6 +1736,7 @@ pro_name_th_row_1 {
 	float: left;
 	color: #000;
 	float: left;
+	line-height: 25px;
 }
 
 .desc_line{
@@ -1750,21 +1759,371 @@ pro_name_th_row_1 {
 .desc_left_line{
 	margin-right: 5px;
 	float: left;
-	line-height: 18px;
+	font-size: 12px;
 }
 .desc_left_line a{
 	color: #848484;
 	text-decoration: underline;
 }
-	
 
 .desc_count{
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 14px;
 	float: left;
 }
 
 .desc_right_line{
-	margin-left: 30px;
+	margin-left: 40px;
 	float: left;
+	font-size: 12px;
+}
+
+.desc_right_line a{
+	color: #848484;
+	text-decoration: underline;
+	
+}
+
+.desc_line_extra{
+	font-size: 15px;
+	border-top: 1px solid #EEE;
+	padding: 10px 0;
+	overflow: hidden;
+	width: 100%;
+	float: left;
+	color: #848484;
+}
+
+.desc_line_extra1 {
+	width: 64%;
+	float: left;
+	margin-right: 10px;
+	color: #848484;
+}
+
+.desc_line_extra2 {
+	line-height: 15px;
+	font-size: 11px;
+	float: left;
+	width: 191px;
+}
+.desc_info {
+	float: left;
+	width: 100%;
+}
+
+.desc_row1_ul {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #565656;
+	margin: 0;
+	padding: 0;
+}
+
+.desc_row1_ul li {
+	width: 136px;
+	margin-left: 15px;
+	float: left;
+	cursor: pointer;
+	z-index: 1;
+	background-color: #FFF;
+	display: block;
+}
+
+.desc_row1_ul li a {
+	padding: 5px 10px 0 10px;
+	text-decoration: none;
+	color: #666;
+	float: left;
+	width: 100%;
+}
+.desc_row1_1{
+	float: left;
+	color: #666;
+
+}
+.desc_row1_rs1{
+	font-size: 21px;
+	float: left;
+}
+
+.desc_row1_2{
+	float: left;
+	color: #666;
+	font-weight: bold
+}
+.desc_row1_rs2{
+	font-size: 21px;
+	font-weight: bold;
+	float: left;
+}
+
+.desc_xchg{
+	margin-left: 387px;
+	float: left;
+	margin-top: -15px;
+}
+.desc_xchg a{
+	text-decoration: underline;
+}
+.desc_xchg_text {
+	padding: 10px 0 5px 10px;
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	color: #848484;
+	line-height: 17px;
+}
+.desc_ovf{
+	display: inline-block;
+	max-width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: bottom;
+	text-overflow: ellipsis;
+}
+.desc_ch_box_size{
+	width: 300px;
+	float: left;
+	padding: 10px;
+}
+
+.desc_ch_box{
+	-moz-transition: max-height .2s ease-out;
+	-webkit-transition: max-height .2s ease-out;
+	-o-transition: max-height .2s ease-out;
+	transition: max-height .2s ease-out;
+	border: 1px solid #E4E4E4;
+	overflow: hidden;
+	max-height: 38px;
+	color: #565656;
+	width: 100%;
+}
+.desc_bx_size{
+	cursor: pointer;
+	position: relative;
+	padding: 10px 10px 8px;
+}
+
+.desc_bx_text{
+	display: inline-block;
+	line-height: 20px;
+	padding: 1px 5px 0 5px;
+	vertical-align: top;
+}
+
+.img_icon{
+	float: right;
+}
+
+.desc_check_box{
+	margin-top: 5px;
+	padding: 0 0 10px 10px;
+	width: 100%;
+	float: left;
+}
+.desc_buy_now{
+	margin-top: 10px;
+	width: 100%;
+	padding-left: 10px;
+	float: left;
+}
+.buy_size{
+	width: 232px;
+	font-size: 22px;
+	line-height: 24px;
+}
+.desc_buy_int{
+	padding: 8px 0;
+	border: 1px solid #EC6723;
+	background: linear-gradient(to bottom,#F77219 1%,#FEC6A7 3%,#F77219 7%,#F75B16 100%);
+	display: inline-block;
+	color: #F9F9F9;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: center;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	text-decoration: none;
+}
+.desc_buy_now a{
+	text-decoration: none;
+}
+.desc_buy_now a:hover{
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #EE3A39;
+	background: linear-gradient(to bottom,#F28941 1%,#FEC6A7 3%,#F28941 7%,#F75B16 100%);
+}
+
+.desc_selling_size{
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+}
+
+.desc_selling{
+	width: 668px;
+	float: left;
+	border-top: 2px solid #333;
+}
+.desc_selling_heading{
+	color: #333;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 5px 0 10px 0;
+	float: left;
+}
+.desc_selling_head_text{
+	width: 358px;
+	float: left;
+	line-height: 20px;
+}
+
+.desc_rit{
+	float: left;
+	width: auto;
+	margin-left: 168px;
+}
+
+.desc_rit a {
+	color: #666;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.desc_rit a:hover {
+	color: #2271B2;
+	text-decoration: underline;
+}
+
+.desc_pro_seller{
+	width: 100%;
+	float: left;
+}
+.desc_price_deatils1{
+	width: 18%;
+	float: left;
+	padding: 5px;
+	padding-left: 0;
+}
+.desc_price_deatils2{
+	width: 16.6667%;
+	float:left;
+	padding: 5px;
+}
+
+.desc_price_deatils3{
+	width: 26%;
+	float: left;
+	padding: 5px;
+	font-size: 11px;
+}
+.desc_price_color{
+	color: #B00;
+	font-size:13px;
+	float: left;
+	width: 100%;
+}
+.desc_del_color{
+	color: #848484;
+	font-size: 11px;
+	float: left;
+	width: 100%;
+}
+.desc_del_color a{
+	color: #666;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.desc_del_color a:hover{
+	color: #2271B2;
+	text-decoration: underline;
+}
+
+.desc_avail{
+	color: #6BAD50;
+	font-size: 13px;
+	float: left;
+	width: 100%;
+}
+
+.desc_seller_comp{
+	float: left;
+	width: 100%;
+}
+
+.desc_selling_clbox{
+	padding-top: 10px;
+	width: auto;
+	float: left;
+	margin-left: 141px;
+}
+
+.buy_size1{
+	width: 88px;
+	font-size: 11px;
+	line-height: 10px;
+}
+
+.desc_selling_clbox a:hover{
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #EE3A39;
+	background: linear-gradient(to bottom,#F28941 1%,#FEC6A7 3%,#F28941 7%,#F75B16 100%);
+}
+
+.desc_offer_size{
+	width: 730px;
+	border-top: 2px solid #333;
+	margin-bottom: 10px;
+	float: left;
+}
+.desc_offer_size_heading{
+	padding: 5px 0 10px 0;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	color: #848484;
+	float: left;
+}
+.desc_offer_next{
+	border-bottom: 1px solid #CCC;
+	font-size: 11px;
+	padding: 10px 0;
+	width: 100%;
+	float: left;
+}
+.desc_offer_name{
+	display: inline;
+	font-size: 11px;
+	text-transform: uppercase;
+	float: left;
+	width: 160px;
+}
+
+.desc_offer_text{
+	display: inline;
+	font-size: 11px;
+	float: left;
+	width: 100%;
+	color: #848484
+}
+
+.desc_offer_col{
+	background-color: #6FBA54;
+	color: #FFF;
+	padding: 2px;
+	margin-bottom: 5px;
+	float: left;
+}
+.desc_offer_name a{
+	color: #EEE;
+	text-decoration: none;
+	font-size: 12px;
+}
+.desc_shop_now{
+	margin-left: 150px;
 }
