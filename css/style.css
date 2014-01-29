@@ -49,6 +49,7 @@ body{
 	border-left: 1px solid #070707;
 	border-top: 1px solid  rgba(191,58,51,1);
 	border-top: 1px solid #27E2F8;
+	cursor: pointer;
 
 }
 
@@ -78,7 +79,7 @@ body{
 
 .menu{
 	margin:0px auto;
-	height:40px;
+	height:33px;
 	
 }
 
@@ -89,18 +90,18 @@ body{
 	position: relative;
 	padding: 0px 15px;
 	border: none;
-	margin: 6px 10px;
-	padding-top: 8px;
+	margin: 2px 10px;
+	padding-top: 5px;
+	color: #EEE;
 }
 
 .menu li:hover {
-	
-	color: #161616;
 	font-family:Arial, Helvetica, sans-serif;
 	border-bottom:5px solid #2DA89B;
 	padding-bottom:1px;
-	
+	color: #2BAA9F;
 }
+
 
 .menu li:hover .dropdown_col_2 {
 	top: auto;
@@ -111,6 +112,8 @@ body{
 	position: absolute;
 	z-index:2000;
 	background-color:#FFF;
+	display: block;
+	
 }
 
 
@@ -121,12 +124,12 @@ body{
 .dropdown_col_2{
 	
 	float:left;
-	position: fixed;
 	text-align:left;
 	border:1px solid #ccc;
 	border-top:none;
-	left:-999em;
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+	display: none;
+	position: fixed;
 
 }
 
@@ -174,11 +177,12 @@ body{
 .menu li a {
 	
 	font-size: 14px;
-	color: #EEE;
 	display: block;
 	outline: 0;
 	text-decoration: none;
 	font-family: 'PT Sans', sans-serif;
+	cursor: pointer;
+	color: #EEE;
 }
 
 .x h6{
@@ -195,6 +199,15 @@ body{
 	text-align: left;
 	width: 159px;
 	position: static;
+	color: #222;
+}
+.menu li ul li a{
+	color: #222;
+	text-decoration: none;
+	font-size: 12px;
+}
+.menu li ul li a:hover{
+	color: #2BAA9F;
 }
 
 .menu li ul {
@@ -202,11 +215,15 @@ body{
 	padding: 0;
 	margin: 0 0 12px 0;
 }
-
+/*
 .menu li:hover div a {
 	font-size: 12px;
 	color: #015B86;
+	cursor: pointer;
 }
+*/
+
+
 
 .menu li ul li:hover{
 	color: #161616;
@@ -216,7 +233,6 @@ body{
 	border: 1px solid #B9B9B9;
 	border-right:none;
 	border-radius: 5px 0 0 5px;
-	padding-left:2px
 }
 
 .inner_text{
@@ -255,7 +271,6 @@ body{
 	text-align:left;
 	border:1px solid #ccc;
 	border-top:none;
-	top:-500em;
 	width:150px;
 	height:330px;
 	font-size:12px;
@@ -274,8 +289,9 @@ body{
 	position: absolute;
 	background-color: #F4F4F4;
 	margin-left:157px;
-	z-index: -1;
+
 	transition: all 0.5s ease-out 0.2s;
+	cursor: pointer;
 
 }
 
@@ -295,12 +311,44 @@ body{
 
 #menu_2
 {
-	margin-left:-200px;
-}
-#menu_10{
-	margin-left: -900px;
+	margin-left:-178px;
 }
 
+#menu_3
+{
+	margin-left:-262px;
+}
+#menu_4
+{
+	margin-left:-344px;
+}
+#menu_5
+{
+	margin-left:-435px;
+}
+#menu_6
+{
+	margin-left:-534px;
+}
+#menu_7
+{
+	margin-left:-658px;
+}
+#menu_8
+{
+	margin-left:-781px;
+}
+#menu_9{
+	margin-left: -890px;
+}
+#menu_10
+{
+	margin-left:-872px;
+}
+.just_content{
+	width: auto;
+	float: left;
+}
 
 /*End of top navigation and start of left navigation */
 
@@ -627,6 +675,7 @@ body{
 
 .third_row1 a{
 	float: left;
+	cursor: pointer;
 }
 
 .third_row1_text span:before{
@@ -706,6 +755,7 @@ body{
 
 .th_text a{
 	color: #666;
+	cursor: pointer;
 }
 
 .th_text a:hover{
@@ -1153,6 +1203,7 @@ ul{
 	margin-bottom: 10px;
 	float:left;
 	width: 100%;
+	cursor: pointer;
 }
    /*End of first and start of second Page*/
 
@@ -1179,6 +1230,7 @@ ul{
 .product_link a{
 	text-decoration: none;
 	color: #565656;
+	cursor: pointer;
 }
 
 .product_left_size{
@@ -1227,7 +1279,7 @@ ul{
 	text-decoration: none;
 	cursor: pointer;
 	line-height:16px;
-	
+	cursor: pointer;
 }
 
 .pro_radio_bt{
@@ -1241,6 +1293,7 @@ ul{
 	display: block;
 	color: #666;
 	text-decoration: none;
+	cursor: pointer;
 }
 input[type="radio"], input[type="checkbox"] {
 	margin:0 0;
@@ -1626,6 +1679,7 @@ input[type="radio"], input[type="checkbox"] {
 	font-weight: normal;
 	margin-right: 3px;
 	font-size: 11px;
+	cursor: pointer;
 }
 
 .pro_sell_info a:hover{
@@ -1644,6 +1698,47 @@ input[type="radio"], input[type="checkbox"] {
 .img_opacity{
 	opacity: 0.3;
 }
+
+.pro_outof_stock{
+	margin-top: -68px;
+	margin-left: 20px;
+	float: left;
+}
+
+.pro_offer_pro{
+	margin-top: -25px;
+	margin-left: 44px;
+	float: left;
+	color: #A0A0A4
+}
+
+.pro_out_mark{
+	position: absolute;
+	padding: 1px 10px;
+	border: 1px solid #E4E4E4;
+	background-color: #FFF;
+	color: #565656;
+}
+
+.stock_img{
+	float: left;
+	width: auto;
+}
+
+.offer_heading1{
+	background: #6FBA54;
+	color: #FFF;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 3px 7px;
+	display: inline-block;
+	font-weight: normal;
+	line-height: 17px;
+	float: left;
+	position: absolute;
+}
+
+
 /*End of third page and start of second*/
 
 .pro_name_heading{
@@ -1764,6 +1859,7 @@ pro_name_th_row_1 {
 .desc_left_line a{
 	color: #848484;
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .desc_count{
@@ -1780,6 +1876,7 @@ pro_name_th_row_1 {
 .desc_count a{
 	color: #848484;
 	text-decoration: underline;
+	cursor: pointer;
 }
 .desc_count a:hover {
 	color: #2271B2;
@@ -1793,6 +1890,7 @@ pro_name_th_row_1 {
 	width: 100%;
 	float: left;
 	color: #848484;
+	cursor: pointer;
 }
 
 .desc_line_extra1 {
@@ -1837,6 +1935,7 @@ pro_name_th_row_1 {
 	color: #666;
 	float: left;
 	width: 100%;
+	cursor: pointer;
 }
 .desc_row1_1{
 	float: left;
@@ -1866,6 +1965,7 @@ pro_name_th_row_1 {
 }
 .desc_xchg a{
 	text-decoration: underline;
+	cursor: pointer;
 }
 .desc_xchg_text {
 	padding: 10px 0 5px 10px;
@@ -1949,6 +2049,7 @@ pro_name_th_row_1 {
 }
 .desc_buy_now a{
 	text-decoration: none;
+	cursor: pointer;
 }
 .desc_buy_now a:hover{
 	text-decoration: none;
@@ -2037,6 +2138,7 @@ pro_name_th_row_1 {
 	color: #666;
 	text-decoration: none;
 	font-size: 12px;
+	cursor: pointer;
 }
 
 .desc_del_color a:hover{
@@ -2125,6 +2227,7 @@ pro_name_th_row_1 {
 	color: #EEE;
 	text-decoration: none;
 	font-size: 12px;
+	cursor: pointer;
 }
 .desc_shop_now{
 	margin-left: 150px;
@@ -2197,6 +2300,7 @@ pro_name_th_row_1 {
 .spec_rit a{
 	color: #666;
 	text-decoration: none;
+	cursor: pointer;
 }
 .spec_rit a:hover{
 	color: #2271B2;
@@ -2274,6 +2378,7 @@ pro_name_th_row_1 {
 	color: #333;
 	text-decoration: none;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .review_hover a:hover{
@@ -2335,6 +2440,7 @@ pro_name_th_row_1 {
 
 .other_pro_size ul li a{
 	color: #666;
+	cursor: pointer;
 
 }
 .other_pro_size ul li a:hover {
@@ -2348,7 +2454,8 @@ pro_name_th_row_1 {
 	color: #666;
 }
 .view_all_pro a{
-	color: #666
+	color: #666;
+	cursor: pointer;
 }
 .view_all_pro a:hover{
 	color: #2271B2;
@@ -2422,3 +2529,5 @@ pro_name_th_row_1 {
 .pass_code{
 	padding-top: 5px;
 }
+
+
